@@ -22,12 +22,23 @@ object MyApp {
     // println(s"name:$name , score:${score + 10 } , height:$height")
     // println(f"name:$name%s , score:$score%-10d , height:$height%-1.2f") //10は最小表示桁数
 
-    val score = 70
+    // val score = 70
+    // val  result =  
+    //   if (score > 80) "great"
+    //   else if (score > 60) "good"
+    //   else "so so..."
+    // println(result)
+ 
+  val signal = "green"
+  val result = signal match {
+    case "red" => "stop"
+    case "blue" | "green" => "go"
+    case "yellow" => "caution"
+    case other => s"wrong signal: ${other}"
+  }
+  println(result)
 
-    val  result =  
-      if (score > 80) "great"
-      else if (score > 60) "good"
-      else "so so..."
-    println(result)
+
+
   }
 }
