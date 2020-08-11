@@ -2,13 +2,16 @@ object MyApp {
 
   def main(args: Array[String]): Unit = {
 
-    // val 再代入できない
-    // var 再代入できる
+    val x = 10
+    println(x / 3.0)
 
-    var msg = "Hello World" //型推論
-    println(msg)
-     msg = "Hello World Again"
-    println(msg)
+    println(x % 3)
+
+    var y = 5
+    y -= 2
+    println(y)
+
+    val flag = true
+    println(!flag)
   }
-
 }
