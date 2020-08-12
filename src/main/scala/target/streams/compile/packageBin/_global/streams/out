@@ -2,6 +2,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/classes/MyApp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AdminUser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/classes/AdminUser.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/classes/User.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyApp.class[0m
