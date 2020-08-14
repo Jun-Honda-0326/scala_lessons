@@ -1,19 +1,21 @@
-class User(_name: String) {
-  val name = _name
-  def sayHi() = println("Hi " + this.name )
-}
+ abstract class User {
+    def sayHello()
+ }
 
-class AdminUser(name: String, val age: Int) extends User(name) {
-  def sayHello() = println("Hello " + name + "("+ age +")")
-  override def sayHi() = println("[admin] こんにちは " +  name)
-}
+ class Japanese extends User {
+   def sayHello() = println("こんにちは")
+ }
+
+ class Americann extends User {
+    def sayHello() = println("Hello")
+ }
 
 object MyApp {
+
   def main(args: Array[String]): Unit = {
-  val bob = new AdminUser("bob", 23)
-  println(bob.name)
-  println(bob.age)
-  bob.sayHi()
-  bob.sayHello()
+    val aki = new Japanese
+    val tom = new Americann
+    aki.sayHello()
+    tom.sayHello()
   }
 }

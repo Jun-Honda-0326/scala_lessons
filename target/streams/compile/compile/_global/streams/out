@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:2:4: not found: value sayHello[0m
+[0m[[0m[31merror[0m] [0m[0m   sayHello()[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:6:4: not found: value sayHello[0m
+[0m[[0m[31merror[0m] [0m[0m   sayHello() = println("こんにちは")[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:10:4: not found: value sayHello[0m
+[0m[[0m[31merror[0m] [0m[0m   sayHello() = println("Heloo")[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:18:9: value sayHello is not a member of Japanese[0m
+[0m[[0m[31merror[0m] [0m[0m    aki.sayHello()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:19:9: value sayHello is not a member of Americann[0m
+[0m[[0m[31merror[0m] [0m[0m    tom.sayHello()[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
