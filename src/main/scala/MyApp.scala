@@ -1,21 +1,17 @@
- abstract class User {
-    def sayHello()
- }
 
- class Japanese extends User {
-   def sayHello() = println("こんにちは")
- }
+class MyDate[T] {
+  def getThree(i: T ): Unit = println (s"$i, $i, $i") 
+}
 
- class Americann extends User {
-    def sayHello() = println("Hello")
- }
+
+
 
 object MyApp {
 
   def main(args: Array[String]): Unit = {
-    val aki = new Japanese
-    val tom = new Americann
-    aki.sayHello()
-    tom.sayHello()
+    val  i = new MyDate[Int]
+    i.getThree(3)
+    val s = new MyDate[String]
+    s.getThree("hello")
   }
 }

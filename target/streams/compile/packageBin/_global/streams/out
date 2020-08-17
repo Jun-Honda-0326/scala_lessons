@@ -1,13 +1,9 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/jun/projects/scala_lessons/target/scala-2.11/scala_lessons_2.11-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Japanese.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/Japanese.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyDate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyDate.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	User.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/User.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Americann.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/Americann.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MyApp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
