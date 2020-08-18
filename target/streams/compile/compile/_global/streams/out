@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:3:58: not found: value form[0m
-[0m[[0m[31merror[0m] [0m[0m   def msg(from: String, to: String, text: String) = s"($form -> $to): $text"[0m
-[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
-=======
-[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:15:16: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String("hello")[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    s.getThree("hello")[0m
-[0m[[0m[31merror[0m] [0m[0m               ^[0m
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:9:27: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    val set_1 = Set(5,3,8,)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:21:3: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  }[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

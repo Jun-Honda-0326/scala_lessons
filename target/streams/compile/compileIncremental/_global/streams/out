@@ -6,39 +6,23 @@
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(MyApp)[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(MyDate, MyApp)[0m
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MyApp[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: MyDate, MyApp[0m
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
 [0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/jun/projects/scala_lessons/target/scala-2.11/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.3.5:compile for Scala 2.11.8[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.3.5:compile for Scala 2.11.8[0m
-<<<<<<< HEAD
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7e66f8ce for Scala compiler version 2.11.8[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 506b7543 for Scala compiler version 2.11.8[0m
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5e69824d for Scala compiler version 2.11.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/jun/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/jun/projects/scala_lessons/target/scala-2.11/classes[0m
-<<<<<<< HEAD
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.586486225 s[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.523147261 s[0m
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.534445406 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-["sbt.Task[scala.collection.Seq[java.nio.file.Path]]",["/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp$$anonfun$1.class","/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp$.class","/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp.class","/Users/jun/projects/scala_lessons/target/streams/compile/compileOutputs/_global/streams/inc_compile_2.11.zip"]]
-=======
-["sbt.Task[scala.collection.Seq[java.nio.file.Path]]",["/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp$.class","/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp.class","/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyDate.class","/Users/jun/projects/scala_lessons/target/streams/compile/compileOutputs/_global/streams/inc_compile_2.11.zip"]]
->>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
+["sbt.Task[scala.collection.Seq[java.nio.file.Path]]",["/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp$.class","/Users/jun/projects/scala_lessons/target/scala-2.11/classes/MyApp.class","/Users/jun/projects/scala_lessons/target/streams/compile/compileOutputs/_global/streams/inc_compile_2.11.zip"]]
