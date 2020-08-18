@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.8":{"hashes":[["/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala","f1701216b732f3d6c6a10a8d43a454bcef7494f4"]],"lastModifiedTimes":[]}}]
+=======
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.8":{"hashes":[["/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala","ee3b5817fade87e8d5e739c86fc2cfb60ad38849"]],"lastModifiedTimes":[]}}]
+>>>>>>> c0a08015175a0b0505a61b07c9108c38046121ec
