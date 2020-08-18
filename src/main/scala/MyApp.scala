@@ -1,21 +1,11 @@
- abstract class User {
-    def sayHello()
- }
-
- class Japanese extends User {
-   def sayHello() = println("こんにちは")
- }
-
- class Americann extends User {
-    def sayHello() = println("Hello")
- }
-
-object MyApp {
+ object MyApp {
 
   def main(args: Array[String]): Unit = {
-    val aki = new Japanese
-    val tom = new Americann
-    aki.sayHello()
-    tom.sayHello()
+    for(i <- 1 to 1000) {
+  val s = new scala.util.Random(new java.security.SecureRandom()).alphanumeric.take(5).toList match {
+    case List(a,b,c,d,_) => List(a,b,c,d,a).mkString
+  }
+  println(s)
+}
   }
 }
