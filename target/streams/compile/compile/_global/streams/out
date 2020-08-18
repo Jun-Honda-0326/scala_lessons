@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:14:1: '=' expected but ';' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    println(double(5))[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/MyApp.scala:3:58: not found: value form[0m
+[0m[[0m[31merror[0m] [0m[0m   def msg(from: String, to: String, text: String) = s"($form -> $to): $text"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
