@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/seqPractice.scala:35:35: value :+ is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m    seq.foldLeft(rev)((a, x) => x :+ a)[0m
-[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala:35:28: value size is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m      option.getOrElse(-1).size[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

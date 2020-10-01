@@ -9,6 +9,7 @@ object seqPractice {
     println(seqMethod3(Seq1))
     println(seqMethod4(Seq1))
     println(seqMethod5(SeqSeq))
+    println(seqMethod6(SeqSeq))
   }
 
 
@@ -35,5 +36,10 @@ object seqPractice {
     seq.foldLeft(rev)((a, x) => x +: a)
   } 
 
-
+  def seqMethod6(seqSeq: Seq[Seq[Int]]):Option[Int] = {
+    val seq: Seq[Int] = seqSeq(0) ++ seqSeq(1)
+      seq match {
+        case List(a,b,c,d,e,f) => Some(99)
+      }
+  }
 }
