@@ -1,0 +1,155 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-test",
+        "directory": "/Users/jun/projects/scala_lessons/src/main/scala",
+        "workspaceDir": "/Users/jun/projects/scala_lessons/src/main/scala",
+        "sources": [
+            "/Users/jun/projects/scala_lessons/src/main/scala/src/test/scala-2.12",
+            "/Users/jun/projects/scala_lessons/src/main/scala/src/test/scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/src/test/java",
+            "/Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/src_managed/test",
+            "/Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/classPractice.scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/eitherPractice.scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/seqPractice.scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/caseClassPractice.scala",
+            "/Users/jun/projects/scala_lessons/src/main/scala/mapPractice.scala"
+        ],
+        "dependencies": [
+            "scala"
+        ],
+        "classpath": [
+            "/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala/scala-2.12/classes",
+            "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+        ],
+        "out": "/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala",
+        "classesDir": "/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala/scala-2.12/test-classes",
+        "resources": [
+            "/Users/jun/projects/scala_lessons/src/main/scala/src/test/resources",
+            "/Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.10",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/jansi.jar",
+                "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/jun/projects/scala_lessons/src/main/scala/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/jun/projects/scala_lessons/src/main/scala"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/jun/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/jun/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

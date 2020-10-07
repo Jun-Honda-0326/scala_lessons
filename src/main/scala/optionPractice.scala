@@ -4,6 +4,7 @@ object optionPractice {
     val option1: Option[Int] = Some(10)
     val optionNone: Option[Int] = None
     val optionStr: Option[String] = Some("GoodMorning")
+
     
     println(optionMethod1(option1))
     println(optionMethod1(optionNone))
@@ -12,8 +13,8 @@ object optionPractice {
     println(optionMethod3(option1))
     println(optionMethod3(optionNone))
     println(optionMethod4(optionStr))
-
   }
+
 
 
   def optionMethod1(option: Option[Int]):Int = {
@@ -31,8 +32,12 @@ object optionPractice {
     }
   }
 
+
+
   def optionMethod4(option: Option[String]):Int = {
-      option.get.size
+    option.get.size
+
     }
   
 }
+

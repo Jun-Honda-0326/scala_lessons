@@ -1,0 +1,427 @@
+2020.10.07 23:10:27 INFO  started: Metals version 0.9.4 in workspace '/Users/jun/projects/scala_lessons/src/main/scala' for client vscode.
+2020.10.07 23:10:28 INFO  time: initialize in 0.84s
+2020.10.07 23:10:37 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/metals2836608497566914276/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.07 23:10:37 INFO  skipping build import with status 'Started'
+2020.10.07 23:10:43 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_265)
+2020.10.07 23:10:51 INFO  no build target: using presentation compiler with only scala-library
+2020.10.07 23:10:51 WARN  no build target for: /Users/jun/projects/scala_lessons/src/main/scala/mapPractice.scala
+10 07, 2020 11:10:51 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 3
+10 07, 2020 11:10:51 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1
+2020.10.07 23:10:51 WARN  no build target for: /Users/jun/projects/scala_lessons/src/main/scala/eitherPractice.scala
+2020.10.07 23:10:53 INFO  [info] loading settings for project scala-build-build from metals.sbt ...
+2020.10.07 23:10:55 INFO  [info] loading project definition from /Users/jun/projects/scala_lessons/src/main/scala/project/project
+2020.10.07 23:10:59 WARN  no build target for: /Users/jun/projects/scala_lessons/src/main/scala/mapPractice.scala
+2020.10.07 23:11:00 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.07 23:11:03 WARN  no build target for: /Users/jun/projects/scala_lessons/src/main/scala/eitherPractice.scala
+2020.10.07 23:11:04 INFO  [info] loading settings for project scala-build from metals.sbt ...
+2020.10.07 23:11:05 INFO  [info] loading project definition from /Users/jun/projects/scala_lessons/src/main/scala/project
+2020.10.07 23:11:09 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.07 23:11:10 WARN  no build target for: /Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala
+2020.10.07 23:11:11 INFO  [success] Generated .bloop/scala-build.json
+2020.10.07 23:11:11 INFO  [success] Total time: 6 s, completed 2020/10/07 23:11:12
+2020.10.07 23:11:13 INFO  [info] set current project to scala (in build file:/Users/jun/projects/scala_lessons/src/main/scala/)
+2020.10.07 23:11:16 INFO  [success] Generated .bloop/scala.json
+2020.10.07 23:11:16 INFO  [success] Generated .bloop/scala-test.json
+2020.10.07 23:11:16 INFO  [success] Total time: 1 s, completed 2020/10/07 23:11:16
+2020.10.07 23:11:16 INFO  time: ran 'sbt bloopInstall' in 39s
+2020.10.07 23:11:16 INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher7101209086012980056/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/jun/projects/scala_lessons/src/main/scala/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala-test.json'
+[0m[32m[D][0m Loading project from '/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala.json'
+[0m[32m[D][0m Missing analysis file for project 'scala'
+[0m[32m[D][0m Missing analysis file for project 'scala-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher7101209086012980056/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher7101209086012980056/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.07 23:11:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1403539484498148473/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1403539484498148473/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1403539484498148473/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.07 23:11:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.07 23:11:16 INFO  time: connected to build server in 0.35s
+2020.10.07 23:11:16 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+10 07, 2020 11:11:21 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 32
+2020.10.07 23:11:29 INFO  time: indexed workspace in 12s
+2020.10.07 23:11:29 INFO  compiling scala (6 scala sources)
+2020.10.07 23:11:54 INFO  skipping build import with status 'Installed'
+2020.10.07 23:11:54 INFO  compiling scala (6 scala sources)
+2020.10.07 23:11:56 INFO  time: compiled scala in 2.01s
+2020.10.07 23:11:56 INFO  compiling scala-test (6 scala sources)
+2020.10.07 23:12:00 INFO  time: compiled scala-test in 4.33s
+2020.10.07 23:12:22 INFO  skipping build import with status 'Installed'
+2020.10.07 23:12:22 INFO  compiling scala (1 scala source)
+2020.10.07 23:12:25 INFO  time: compiled scala in 2.92s
+10 07, 2020 11:13:03 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 110
+10 07, 2020 11:13:10 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 118
+2020.10.07 23:13:19 INFO  skipping build import with status 'Installed'
+2020.10.07 23:13:19 INFO  compiling scala (1 scala source)
+2020.10.07 23:13:21 INFO  time: compiled scala in 2.58s
+2020.10.07 23:13:22 INFO  skipping build import with status 'Installed'
+2020.10.07 23:13:21 INFO  compiling scala (1 scala source)
+2020.10.07 23:13:22 INFO  time: compiled scala in 0.33s
+2020.10.07 23:13:31 INFO  skipping build import with status 'Installed'
+10 07, 2020 11:15:35 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:16:09 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:16:42 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:17:54 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:06 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:20 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:25 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:32 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:39 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:18:58 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:04 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:19 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:26 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:33 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:44 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:19:50 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:20:41 INFO  skipping build import with status 'Installed'
+2020.10.07 23:20:41 INFO  compiling scala (1 scala source)
+2020.10.07 23:20:41 INFO  time: compiled scala in 0.16s
+2020.10.07 23:20:51 INFO  skipping build import with status 'Installed'
+2020.10.07 23:20:51 INFO  compiling scala (1 scala source)
+2020.10.07 23:20:53 INFO  time: compiled scala in 1.71s
+10 07, 2020 11:21:51 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:22:31 INFO  skipping build import with status 'Installed'
+2020.10.07 23:22:31 INFO  compiling scala (1 scala source)
+2020.10.07 23:22:31 INFO  time: compiled scala in 0.41s
+2020.10.07 23:22:39 INFO  skipping build import with status 'Installed'
+2020.10.07 23:22:39 INFO  compiling scala (1 scala source)
+2020.10.07 23:22:41 INFO  time: compiled scala in 2.21s
+10 07, 2020 11:23:25 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:23:30 INFO  skipping build import with status 'Installed'
+2020.10.07 23:23:30 INFO  compiling scala (1 scala source)
+2020.10.07 23:23:31 INFO  skipping build import with status 'Installed'
+2020.10.07 23:23:33 INFO  time: compiled scala in 3.35s
+2020.10.07 23:23:34 INFO  skipping build import with status 'Installed'
+2020.10.07 23:23:34 INFO  compiling scala (1 scala source)
+2020.10.07 23:23:37 INFO  time: compiled scala in 2.65s
+10 07, 2020 11:23:42 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:23:54 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:01 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:12 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:18 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:27 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:24:39 INFO  skipping build import with status 'Installed'
+10 07, 2020 11:24:48 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:50 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:52 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:52 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:53 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:24:56 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:25:03 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:25:15 INFO  skipping build import with status 'Installed'
+2020.10.07 23:25:16 INFO  compiling scala (1 scala source)
+2020.10.07 23:25:17 INFO  time: compiled scala in 1.51s
+2020.10.07 23:25:29 INFO  skipping build import with status 'Installed'
+2020.10.07 23:25:39 INFO  skipping build import with status 'Installed'
+2020.10.07 23:25:39 INFO  compiling scala (1 scala source)
+2020.10.07 23:25:39 INFO  time: compiled scala in 0.2s
+2020.10.07 23:25:41 INFO  skipping build import with status 'Installed'
+2020.10.07 23:25:41 INFO  compiling scala (1 scala source)
+2020.10.07 23:25:43 INFO  time: compiled scala in 1.73s
+2020.10.07 23:25:45 INFO  skipping build import with status 'Installed'
+2020.10.07 23:25:45 INFO  compiling scala (1 scala source)
+2020.10.07 23:25:47 INFO  time: compiled scala in 2.41s
+10 07, 2020 11:25:52 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:26:22 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+10 07, 2020 11:27:08 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+something's wrong: no file:///Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala in Option[Int]RangePosition(file:///Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala, 678, 678, 689)
+10 07, 2020 11:29:20 午後 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+情報: Unsupported notification method: $/setTraceNotification
+2020.10.07 23:29:30 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+2020.10.07 23:39:02 INFO  started: Metals version 0.9.4 in workspace '/Users/jun/projects/scala_lessons/src/main/scala' for client vscode.
+2020.10.07 23:39:03 INFO  time: initialize in 0.73s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1808814339279716928/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1808814339279716928/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher1808814339279716928/bsp.socket...
+2020.10.07 23:39:04 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.07 23:39:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher8353868524274632656/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher8353868524274632656/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher8353868524274632656/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.07 23:39:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.07 23:39:04 INFO  time: connected to build server in 0.72s
+2020.10.07 23:39:04 INFO  Connected to Build server v1.4.0-RC1-229-b7c15aa9
+2020.10.07 23:39:04 INFO  time: imported build in 0.22s
+2020.10.07 23:39:09 INFO  no build target: using presentation compiler with only scala-library
+2020.10.07 23:39:09 INFO  compiling scala (1 scala source)
+2020.10.07 23:39:12 INFO  time: compiled scala in 2.69s
+2020.10.07 23:39:12 INFO  compiling scala (1 scala source)
+10 07, 2020 11:39:12 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 3
+10 07, 2020 11:39:12 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 12
+10 07, 2020 11:39:12 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 9
+2020.10.07 23:39:12 INFO  skipping build import with status 'Installed'
+2020.10.07 23:39:12 INFO  time: compiled scala in 0.24s
+2020.10.07 23:39:12 INFO  compiling scala (1 scala source)
+2020.10.07 23:39:12 INFO  time: compiled scala in 44ms
+2020.10.07 23:39:14 INFO  time: indexed workspace in 10s
+2020.10.07 23:39:14 INFO  compiling scala (1 scala source)
+2020.10.07 23:39:14 INFO  time: compiled scala in 0.18s
+2020.10.07 23:39:15 INFO  skipping build import with status 'Installed'
+2020.10.07 23:39:23 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/bf/xxjll1lx4_xbf7h0wbtyytd00000gn/T/bsp-launcher7663657754447102909/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.10.07 23:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.07 23:39:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jun/Library/Caches/org.scalameta.metals/bsp.trace.json
+2020.10.07 23:39:28 INFO  time: connected to build server in 5.63s
+2020.10.07 23:39:28 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.07 23:39:28 INFO  time: imported build in 0.21s
+2020.10.07 23:39:30 INFO  time: indexed workspace in 1.19s
+2020.10.07 23:39:31 INFO  compiling scala-test (6 scala sources)
+2020.10.07 23:40:03 INFO  time: compiled scala-test in 32s
+2020.10.07 23:40:17 INFO  skipping build import with status 'Installed'
+2020.10.07 23:40:17 INFO  compiling scala (1 scala source)
+2020.10.07 23:40:17 INFO  time: compiled scala in 0.71s
+2020.10.07 23:40:20 INFO  skipping build import with status 'Installed'
+2020.10.07 23:40:22 INFO  skipping build import with status 'Installed'
+2020.10.07 23:40:22 INFO  compiling scala (1 scala source)
+2020.10.07 23:40:22 INFO  time: compiled scala in 0.15s
+2020.10.07 23:40:28 INFO  skipping build import with status 'Installed'
+2020.10.07 23:43:29 INFO  skipping build import with status 'Installed'
+2020.10.07 23:43:29 INFO  compiling scala (1 scala source)
+2020.10.07 23:43:29 INFO  time: compiled scala in 0.6s
+2020.10.07 23:43:36 INFO  skipping build import with status 'Installed'
+2020.10.07 23:43:55 INFO  skipping build import with status 'Installed'
+2020.10.07 23:43:55 INFO  compiling scala (1 scala source)
+2020.10.07 23:43:55 INFO  time: compiled scala in 0.34s
+2020.10.07 23:44:42 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:05 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:05 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:08 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:08 INFO  time: compiled scala in 2.91s
+2020.10.07 23:45:08 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:45:08 INFO  time: compiled scala-test in 52ms
+2020.10.07 23:45:08 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:08 INFO  time: compiled scala in 90ms
+2020.10.07 23:45:10 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:10 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:10 INFO  time: compiled scala in 0.16s
+2020.10.07 23:45:11 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:11 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:11 INFO  time: compiled scala in 0.29s
+2020.10.07 23:45:13 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:13 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:13 INFO  time: compiled scala in 0.28s
+2020.10.07 23:45:14 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:14 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:14 INFO  time: compiled scala in 0.33s
+2020.10.07 23:45:16 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:16 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:16 INFO  time: compiled scala in 0.13s
+2020.10.07 23:45:18 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:18 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:18 INFO  time: compiled scala in 0.15s
+2020.10.07 23:45:19 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:19 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:19 INFO  time: compiled scala in 0.36s
+2020.10.07 23:45:20 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:20 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:20 INFO  time: compiled scala in 0.2s
+2020.10.07 23:45:22 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:22 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:24 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:24 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:45:24 INFO  time: compiled scala in 2.04s
+2020.10.07 23:45:24 INFO  time: compiled scala-test in 0.51s
+2020.10.07 23:45:28 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:28 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:29 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:45:29 INFO  time: compiled scala in 1.4s
+2020.10.07 23:45:29 INFO  time: compiled scala-test in 0.42s
+2020.10.07 23:45:41 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:41 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:42 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:45:42 INFO  time: compiled scala in 1.07s
+2020.10.07 23:45:42 INFO  time: compiled scala-test in 0.33s
+2020.10.07 23:45:45 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:45 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:47 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:45:47 INFO  time: compiled scala in 2.06s
+2020.10.07 23:45:47 INFO  time: compiled scala-test in 0.57s
+2020.10.07 23:45:50 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:50 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:50 INFO  time: compiled scala in 0.13s
+2020.10.07 23:45:55 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:56 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:56 INFO  time: compiled scala in 0.13s
+2020.10.07 23:45:57 INFO  skipping build import with status 'Installed'
+2020.10.07 23:45:57 INFO  compiling scala (1 scala source)
+2020.10.07 23:45:57 INFO  time: compiled scala in 74ms
+2020.10.07 23:45:59 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:00 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:00 INFO  time: compiled scala in 0.23s
+2020.10.07 23:46:02 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:02 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:02 INFO  time: compiled scala in 0.14s
+2020.10.07 23:46:03 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:03 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:03 INFO  time: compiled scala in 0.15s
+2020.10.07 23:46:04 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:04 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:04 INFO  time: compiled scala in 91ms
+2020.10.07 23:46:14 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:14 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:14 INFO  time: compiled scala in 0.1s
+2020.10.07 23:46:16 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:16 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:16 INFO  time: compiled scala in 0.19s
+2020.10.07 23:46:17 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:17 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:17 INFO  time: compiled scala in 45ms
+2020.10.07 23:46:20 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:20 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:20 INFO  time: compiled scala in 71ms
+2020.10.07 23:46:25 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:25 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:25 INFO  time: compiled scala in 0.1s
+2020.10.07 23:46:29 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:29 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:29 INFO  time: compiled scala in 79ms
+2020.10.07 23:46:30 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:30 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:30 INFO  time: compiled scala in 65ms
+2020.10.07 23:46:32 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:32 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:32 INFO  time: compiled scala in 98ms
+2020.10.07 23:46:36 INFO  skipping build import with status 'Installed'
+2020.10.07 23:46:36 INFO  compiling scala (1 scala source)
+2020.10.07 23:46:37 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:46:37 INFO  time: compiled scala in 1.42s
+2020.10.07 23:46:37 INFO  time: compiled scala-test in 0.41s
+2020.10.07 23:47:25 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:25 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:27 INFO  time: compiled scala in 1.46s
+2020.10.07 23:47:27 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:27 INFO  time: compiled scala-test in 0.55s
+2020.10.07 23:47:29 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:31 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:31 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:32 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:32 INFO  time: compiled scala in 1.19s
+2020.10.07 23:47:32 INFO  time: compiled scala-test in 0.41s
+2020.10.07 23:47:34 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:34 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:34 INFO  time: compiled scala in 0.31s
+2020.10.07 23:47:36 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:36 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:36 INFO  time: compiled scala in 0.11s
+2020.10.07 23:47:37 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:37 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:37 INFO  time: compiled scala in 73ms
+2020.10.07 23:47:39 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:39 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:39 INFO  time: compiled scala in 0.12s
+2020.10.07 23:47:40 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:41 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:42 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:42 INFO  time: compiled scala in 1.23s
+2020.10.07 23:47:42 INFO  time: compiled scala-test in 0.44s
+2020.10.07 23:47:43 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:43 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:43 INFO  time: compiled scala in 0.6s
+2020.10.07 23:47:43 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:43 INFO  time: compiled scala-test in 0.33s
+2020.10.07 23:47:48 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:48 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:49 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:49 INFO  time: compiled scala in 1.53s
+2020.10.07 23:47:49 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:49 INFO  time: compiled scala-test in 0.52s
+2020.10.07 23:47:52 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:52 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:52 INFO  time: compiled scala in 75ms
+2020.10.07 23:47:55 INFO  skipping build import with status 'Installed'
+2020.10.07 23:47:55 INFO  compiling scala (1 scala source)
+2020.10.07 23:47:56 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:47:56 INFO  time: compiled scala in 1.49s
+2020.10.07 23:47:56 INFO  time: compiled scala-test in 0.49s
+2020.10.07 23:48:02 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:02 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:03 INFO  time: compiled scala in 1.16s
+2020.10.07 23:48:03 INFO  compiling scala-test (1 scala source)
+2020.10.07 23:48:03 INFO  time: compiled scala-test in 0.51s
+2020.10.07 23:48:17 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:17 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:17 INFO  time: compiled scala in 0.14s
+2020.10.07 23:48:19 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:19 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:19 INFO  time: compiled scala in 95ms
+2020.10.07 23:48:24 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:24 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:24 INFO  time: compiled scala in 0.24s
+2020.10.07 23:48:29 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:29 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:29 INFO  time: compiled scala in 0.11s
+2020.10.07 23:48:31 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:31 INFO  compiling scala (1 scala source)
+2020.10.07 23:48:31 INFO  time: compiled scala in 0.26s
+2020.10.07 23:48:33 INFO  skipping build import with status 'Installed'
+2020.10.07 23:48:34 INFO  shutting down Metals

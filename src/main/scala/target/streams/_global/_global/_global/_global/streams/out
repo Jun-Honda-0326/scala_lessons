@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [scala / Compile / run] Found inputs: /Users/jun/projects/scala_lessons/src/main/scala/*.{java,scala},/Users/jun/projects/scala_lessons/src/main/scala/src/main/java/**/*.{java,scala},/Users/jun/projects/scala_lessons/src/main/scala/src/main/resources/**/*,/Users/jun/projects/scala_lessons/src/main/scala/src/main/scala/**/*.{java,scala},/Users/jun/projects/scala_lessons/src/main/scala/src/main/scala-2.12/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala -> Trigger. Returning: (Creation(/Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala, 2020-10月-08 00:15:15.036 GMT+09:00),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Creation(/Users/jun/projects/scala_lessons/src/main/scala/futurePractice.scala, 2020-10月-08 00:15:15.036 GMT+09:00).[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/jun/projects/scala_lessons/src/main/scala/dot.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Creation(/Users/jun/projects/scala_lessons/src/main/scala/dot.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/jun/projects/scala_lessons/src/main/scala/dot.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Deletion(/Users/jun/projects/scala_lessons/src/main/scala/dot.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
