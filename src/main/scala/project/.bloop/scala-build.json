@@ -2,14 +2,14 @@
     "version": "1.4.0",
     "project": {
         "name": "scala-build",
-        "directory": "/Users/jun/projects/scala_lessons/src/main/scala/project",
-        "workspaceDir": "/Users/jun/projects/scala_lessons/src/main/scala/project",
+        "directory": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project",
+        "workspaceDir": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project",
         "sources": [
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/src/main/scala-2.12",
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/src/main/scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/src/main/java",
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/src/main/scala-sbt-1.0",
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/src/main/scala-2.12",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/src/main/scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/src/main/java",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/src/main/scala-sbt-1.0",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -102,11 +102,11 @@
             "/Users/jun/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/0.4.2/fastparse-utils_2.12-0.4.2.jar",
             "/Users/jun/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.3/sourcecode_2.12-0.1.3.jar"
         ],
-        "out": "/Users/jun/projects/scala_lessons/src/main/scala/project/.bloop/scala-build",
-        "classesDir": "/Users/jun/projects/scala_lessons/src/main/scala/project/.bloop/scala-build/scala-2.12/sbt-1.0/classes",
+        "out": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/.bloop/scala-build",
+        "classesDir": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/.bloop/scala-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/src/main/resources",
-            "/Users/jun/projects/scala_lessons/src/main/scala/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/src/main/resources",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -123,7 +123,7 @@
                 "/Users/jun/.sbt/boot/scala-2.12.10/lib/jansi.jar",
                 "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
             ],
-            "analysis": "/Users/jun/projects/scala_lessons/src/main/scala/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "analysis": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/project/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -191,9 +191,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home",
+                "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/jun/projects/scala_lessons/src/main/scala/project"
+                    "-Duser.dir=/Users/jun/projects/Scala/scala_lessons/src/main/scala/project"
                 ]
             },
             "mainClass": [

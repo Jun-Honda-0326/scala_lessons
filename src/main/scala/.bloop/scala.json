@@ -2,19 +2,20 @@
     "version": "1.4.0",
     "project": {
         "name": "scala",
-        "directory": "/Users/jun/projects/scala_lessons/src/main/scala",
-        "workspaceDir": "/Users/jun/projects/scala_lessons/src/main/scala",
+        "directory": "/Users/jun/projects/Scala/scala_lessons/src/main/scala",
+        "workspaceDir": "/Users/jun/projects/Scala/scala_lessons/src/main/scala",
         "sources": [
-            "/Users/jun/projects/scala_lessons/src/main/scala/src/main/scala-2.12",
-            "/Users/jun/projects/scala_lessons/src/main/scala/src/main/scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/src/main/java",
-            "/Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/src_managed/main",
-            "/Users/jun/projects/scala_lessons/src/main/scala/optionPractice.scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/classPractice.scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/eitherPractice.scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/seqPractice.scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/caseClassPractice.scala",
-            "/Users/jun/projects/scala_lessons/src/main/scala/mapPractice.scala"
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/src/main/scala-2.12",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/src/main/scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/src/main/java",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/target/scala-2.12/src_managed/main",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/optionPractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/classPractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/eitherPractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/futurePractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/seqPractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/caseClassPractice.scala",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/mapPractice.scala"
         ],
         "dependencies": [
             
@@ -22,11 +23,11 @@
         "classpath": [
             "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
         ],
-        "out": "/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala",
-        "classesDir": "/Users/jun/projects/scala_lessons/src/main/scala/.bloop/scala/scala-2.12/classes",
+        "out": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/.bloop/scala",
+        "classesDir": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/.bloop/scala/scala-2.12/classes",
         "resources": [
-            "/Users/jun/projects/scala_lessons/src/main/scala/src/main/resources",
-            "/Users/jun/projects/scala_lessons/src/main/scala/target/scala-2.12/resource_managed/main"
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/src/main/resources",
+            "/Users/jun/projects/Scala/scala_lessons/src/main/scala/target/scala-2.12/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -43,7 +44,7 @@
                 "/Users/jun/.sbt/boot/scala-2.12.10/lib/jansi.jar",
                 "/Users/jun/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
             ],
-            "analysis": "/Users/jun/projects/scala_lessons/src/main/scala/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "analysis": "/Users/jun/projects/Scala/scala_lessons/src/main/scala/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -102,7 +103,7 @@
             "config": {
                 "home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre",
                 "options": [
-                    "-Duser.dir=/Users/jun/projects/scala_lessons/src/main/scala"
+                    "-Duser.dir=/Users/jun/projects/Scala/scala_lessons/src/main/scala"
                 ]
             },
             "mainClass": [
